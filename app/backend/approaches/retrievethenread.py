@@ -33,15 +33,13 @@ class RetrieveThenReadApproach(Approach):
     # shots/sample conversation
     question = """
 'Missä suunnitteluohjeissa huomioidaan roudan ja routimisen vaikutus rakenteiden suunnittelussa?'
-
 sources:
 info1.txt: Suunnitteluohjeet ovat aina suunnittelukohdekohtaisia. Suunnittelu pitää aina sovittaa suunnittelukohteeseen
-info2.pdf: Routiminen ja routa tulee suunnitella ohjeen "Tien geotekninen suunnittelu LO 10/2012" mukaan.
-info3.pdf: Kun suunnittelee rakenteita siten, että routa ja routiminen ei vaikuta negatiivisesti rakenteisiin tulee huomioida ratarakenteiden tapauksessa ohje "RATO 3 ja Ratojen routasuojaustarpeen selvittäminen"
+info2.pdf: Routiminen ja routa tulee suunnitella ohjeen Tien geotekninen suunnittelu LO 10/2012 mukaan.
+info3.pdf: Kun suunnittelee rakenteita siten, että routa ja routiminen ei vaikuta negatiivisesti rakenteisiin tulee huomioida ratarakenteiden tapauksessa ohje RATO 3 ja Ratojen routasuojaustarpeen selvittäminen
 """
-    answer = 
-    """
-    Suunnitellessa rata- ja tierakenteita tulee huomioida routa ja routimisen vaikutus aina tapauskohtaisesti. Suunnittelijan tulee tukeutua ainakin suunnitteluohjeisiin  "Tien geotekninen suunnittelu LO 10/2012" ja  "RATO 3 ja Ratojen routasuojaustarpeen selvittäminen
+    answer = """
+    Suunnitellessa rata- ja tierakenteita tulee huomioida routa ja routimisen vaikutus aina tapauskohtaisesti. Suunnittelijan tulee tukeutua ainakin suunnitteluohjeisiin  Tien geotekninen suunnittelu LO 10/2012 ja  RATO 3 ja Ratojen routasuojaustarpeen selvittäminen
     """
 
     def __init__(
