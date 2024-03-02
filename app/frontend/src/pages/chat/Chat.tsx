@@ -279,9 +279,9 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <Rocket16Filled fontSize={"250px"} aria-hidden="true" aria-label="Chat logo" />
-                            <h1 className={styles.chatEmptyStateTitle}>Augmented search for engineers</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Ask anything your question</h2>
+                            <Rocket16Filled fontSize={"25px"} style={{ width: "70px", display: "inline-block" }} aria-hidden="true" aria-label="Chat logo" />
+                            <h1 className={styles.chatEmptyStateTitle}>Search-everything for Engineers</h1>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Ask your questions</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                         </div>
                     ) : (
@@ -347,7 +347,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="Type a new question (e.g. does my plan cover annual eye exams?)"
+                            placeholder="Type a new question (e.g. How to win AEC Hackaton?)"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                         />
