@@ -28,7 +28,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>RAGforce AI</h4>
+                    <h4 className={styles.headerRightText}>Not all heros wear capes</h4>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
