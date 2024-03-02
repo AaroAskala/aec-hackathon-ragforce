@@ -178,7 +178,10 @@ sites_to_scrape_all= [
     'https://kaupunkitilaohje.hel.fi/kortti/kivimateriaalit/',
     'https://kaupunkitilaohje.hel.fi/kortti/uusi-ohjekortti/',
     'https://kaupunkitilaohje.hel.fi/kortti/kokeilusta-ohjeeksi/',
-    ' https://kaupunkitilaohje.hel.fi/kortti/katokset-teltat-valiaikaiset-2-viikkoa/'
+    ' https://kaupunkitilaohje.hel.fi/kortti/katokset-teltat-valiaikaiset-2-viikkoa/',
+    'https://wiki.buildingsmart.fi/fi/04_Julkaisut_ja_Standardit/maisema-bim',
+    'https://julkaisut.valtioneuvosto.fi/handle/10024/161761'
+
 ]
 download_files_from_sites(sites_to_scrape_all,fileExtensions)
 
