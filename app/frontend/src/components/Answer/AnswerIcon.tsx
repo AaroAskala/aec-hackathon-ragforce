@@ -1,4 +1,4 @@
-import myPhoto from "./assets/IT.png";
+import myPhoto from "../../assets/IT.png";
 
 export const AnswerIcon = () => {
     return <img src={myPhoto} alt="Answer logo" />;
