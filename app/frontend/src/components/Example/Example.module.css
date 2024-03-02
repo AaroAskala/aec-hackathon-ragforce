@@ -10,20 +10,25 @@
 
 .example {
     word-break: break-word;
-    background: #dbdbdb;
-    border-radius: 8px;
+    background: #003856;
+    border-radius: 9px;
+    border-color: #e6e6e6;
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin-bottom: 5px;
     cursor: pointer;
-}
-
-.example:hover {
     box-shadow:
         0px 8px 16px rgba(0, 0, 0, 0.14),
         0px 0px 2px rgba(0, 0, 0, 0.12);
-    outline: 2px solid rgba(115, 118, 225, 1);
+
+    transition: background-color 0.4s;
+    transition: border-color 0.4s;
+}
+
+.example:hover {
+    background-color: #35b98b;
+    border-color: #35b98b;
 }
 
 .exampleText {

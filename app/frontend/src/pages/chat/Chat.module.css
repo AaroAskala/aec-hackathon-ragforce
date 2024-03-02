@@ -107,6 +107,7 @@
 .commandsContainer {
     display: flex;
     align-self: flex-end;
+    color: #e6e6e6;
 }
 
 .commandButton {
