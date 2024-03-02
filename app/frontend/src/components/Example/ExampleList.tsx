@@ -5,7 +5,7 @@ import styles from "./Example.module.css";
 const DEFAULT_EXAMPLES: string[] = [
     "How to calculate CO2 emissions arising from construction of an office building?",
     "What aspects of fire safety needs to be addressed when designing a building",
-    "Where do I find NCCI2 quide"
+    "Where do I find NCCI2 guide"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
