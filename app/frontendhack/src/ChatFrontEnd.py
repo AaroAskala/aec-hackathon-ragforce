@@ -56,7 +56,7 @@ sideBar = st.markdown("""
             .st-emotion-cache-vk3wp9{
                 min-width:300px;
                 max-width:300px;
-                transition:0ms;
+                transition:5ms;
         }
             .st-emotion-cache-6qob1r {
                 background-color: #83c9f0;
@@ -100,6 +100,9 @@ textStyleMainWindow = """
     }
     </style>"""
 
+#Insert logo
+#st.image("https://assets-us-01.kc-usercontent.com/1ca05609-4ad1-009e-bc40-2e1230b16a75/9b89c74a-12aa-44c6-a39b-75a671ffec51/Sitowise%20OY.png?w=800&h=600", width=200)
+
 
 st.write("#")
 st.title("Select the wanted use case")
@@ -120,7 +123,6 @@ m = st.markdown("""
         display: flex;
         justify-content: space-around;
         align-items: center;
-
     }
     
     .st-emotion-cache-ocqkz7{
@@ -129,15 +131,14 @@ m = st.markdown("""
         align-items: center;
         padding: 110px 30px 0px 30px;
         gap: 0px;
-        
     }
     
     div.stButton > button:first-child {
         width:250px;
         height:120px;
-        border-width:1px;
+        border-width:3px;
         border-color: #e6e6e6;
-        boarder-radius: 55px;
+        border-radius: 19px;
         background-color: #003856;
         transition: background-color 0.5s;
         box-shadow: 30px 20px 40px -9px rgba(17,17,17,0.51);
@@ -147,10 +148,12 @@ m = st.markdown("""
         font-size:21px;
         text-shadow: 9px 5px 7px rgba(17,17,17,0.70);
         color: #e6e6e6;
+
     }
     
     div.stButton > button:first-child:hover {
         background-color: #35b98b; 
+        border-color: #35b98b;
     }
     </style>""", unsafe_allow_html=True)
 
