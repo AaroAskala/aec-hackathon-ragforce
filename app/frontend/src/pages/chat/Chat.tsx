@@ -279,7 +279,12 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <Rocket16Filled fontSize={"25px"} style={{ width: "70px", display: "inline-block" }} aria-hidden="true" aria-label="Chat logo" />
+                            <Rocket16Filled
+                                fontSize={"25px"}
+                                style={{ width: "100px", height: "100px", display: "inline-block" }}
+                                aria-hidden="true"
+                                aria-label="Chat logo"
+                            />
                             <h1 className={styles.chatEmptyStateTitle}>Search-everything for Engineers</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask your questions</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />

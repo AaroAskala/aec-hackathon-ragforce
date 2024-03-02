@@ -28,7 +28,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Not all heros wear capes</h4>
+                    <h3 className={styles.headerRightText}>Not all heros wear capes</h3>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
