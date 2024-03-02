@@ -52,8 +52,7 @@ class ChatReadRetrieveReadApproach(ChatApproach):
 
     @property
     def system_message_chat_conversation(self):
-        return 
-        """
+        return """
         Assistant helps built environment designers with their questions about design work, best practices, and law. Be brief in your answers.
         Answer ONLY with the facts listed in the list of sources below. If there isn't enough information below, say you don't know.
         Do not generate answers that don't use the sources below.
