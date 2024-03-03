@@ -5,7 +5,7 @@ import styles from "./Example.module.css";
 const DEFAULT_EXAMPLES: string[] = [
     "How to calculate CO2 emissions arising from construction of an office building?",
     "When an Environmental Impact Assessment (EIA) needs to be done?",
-    "Where do I find NCCI2 bridge guide"
+    "Where can I find all necessary guide materials for a street area planning process?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
